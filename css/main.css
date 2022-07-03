@@ -1,0 +1,16 @@
+body{
+}
+
+.Box{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 0;
+  border:none;
+  outline: none;
+  background-color:red;
+}
+
+.Box:focus{
+  background-color:blue;
+}
